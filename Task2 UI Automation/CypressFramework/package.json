@@ -1,0 +1,31 @@
+{
+  "name": "cypressframework",
+  "version": "1.0.0",
+  "description": "cypress with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "headlessTest": "npx cypress run",
+    "headlessChromeTest": "npx cypress run --browser chrome",
+    "headTest": "npx cypress run --headed",
+    "report": "node cucumber-html-report.js"
+  },
+  "author": "Karthik Varadharajan Viswanathan",
+  "license": "Karthik-VaradharajanViswanathan",
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "description": "    Application Swag Labs",
+    "elements": [
+      {
+        "description": "",
+        "id": "locked_out_user-attempts-to-login.;login-as-locked_out_user-and-assert-the-error-message",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login as locked_out_user and assert the error message",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I enter locked_out_user credentials",
+            "result": {
+              "duration": 4179000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "I try to login as locked_out_user",
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I find error message",
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I am able to assert the error message",
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "id": "locked_out_user-attempts-to-login.",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "locked_out_user attempts to login.",
+    "uri": "cypress\\integration\\testsuite\\swaglabs\\TC01_ValidateLockedOutUserError.feature"
+  }
+]
