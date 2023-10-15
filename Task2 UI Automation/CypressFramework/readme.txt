@@ -6,12 +6,15 @@ repo link ->
 
 3. Install Node JS and set the environment variables path.
 
-4. Install cucumber plugin:
-npm install @badeball/cypress-cucumber-preprocessor
+4. Download all npm dependency packages of the framework.
+npm install
 
 5. npx cypress open to view the cypress gui and run execution.
+If there was an issue with your previous Cypress installation. 
+npx cypress cache clear
+npx cypress install
 
-
+************************************************************************************************************
 Follow the below steps to setup cypress automation framework environment from scratch.
 1. Install VS Code:
 Create and Open the project folder in VS Code -> /CypressFramework

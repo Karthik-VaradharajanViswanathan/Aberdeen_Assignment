@@ -14,7 +14,7 @@
             "line": 6,
             "name": "I enter locked_out_user credentials",
             "result": {
-              "duration": 4179000000,
+              "duration": 2983000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 7,
             "name": "I try to login as locked_out_user",
             "result": {
-              "duration": 86000000,
+              "duration": 509000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 8,
             "name": "I find error message",
             "result": {
-              "duration": 21000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 9,
             "name": "I am able to assert the error message",
             "result": {
-              "duration": 22000000,
+              "duration": 294000000,
               "status": "passed"
             },
             "match": {
