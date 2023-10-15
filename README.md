@@ -3,4 +3,4 @@
 
 2. Automate Web Test Cases assignment was done using cypress - javascript automation tool. Please refer the readme file for project setup.
 
-3. Task2 UI Automation assignment was done using Restassured - java. Please refer the readme file for project setup.
+3. Automate API Test Cases assignment was done using Restassured - java. Please refer the readme file for project setup.
